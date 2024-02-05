@@ -1,0 +1,14 @@
+build/
+out/
+.vs/
+.vscode/
+.idea/
+
+*.html
+*.png
+*.jpg
+
+/resource
+/configs
+
+cmake/3rdparty_config.cmake
