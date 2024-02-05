@@ -1,0 +1,22 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "clang_cl_x64_x64" ],
+      "buildRoot": "${projectDir}\\build\\windows\\vs\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-m64 -fdiagnostics-absolute-paths  /DWIN32 /D_WINDOWS /EHsc /std:c++17 /Zc:__cplusplus",
+          "type": "STRING"
+        }
+      ]
+    }
+  ]
+}
